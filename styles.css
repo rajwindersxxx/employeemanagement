@@ -1,0 +1,153 @@
+body {
+  color: #17a2b8;
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#main h1 {
+  position: relative;
+  vertical-align: center;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#links {
+  margin: auto;
+  width: 40%;
+}
+.quote {
+  margin-left: 10%;
+  margin-right: 5%;
+  text-align: right;
+}
+q {
+  color: rgb(88, 80, 80);
+  font-size: 30px;
+  width: 90%;
+  height: 20vh;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 10vh;
+  margin-top: 10vh;
+  margin-left: 10%;
+  color: #17a2b8;
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 1px solid #17a2b8;
+  border-bottom-left-radius: 10%;
+  background-color: whitesmoke;
+  border-top: 1px solid #17a2b8;
+  border-top-left-radius: 10%;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background-color: rgb(88, 80, 80);
+  color: whitesmoke;
+}
+
+img {
+  position: relative;
+  vertical-align: center;
+  margin: auto;
+  border-radius: 2%;
+  width: 100%;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  padding-top: 20px;
+  z-index: 1;
+  background-color: #ffffff;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  padding-top: 20px;
+  height: 85vh;
+  justify-content: right;
+  align-items: center;
+}
+
+.row-1 {
+  flex: 60%;
+}
+
+.row-2 {
+  flex: 40%;
+}
+nav {
+  width: 100%;
+  background-color: #17a2b8;
+  height: 200px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 817px) {
+  .container {
+    display: block;
+    height: 70vh;
+    padding-bottom: 100px;
+  }
+  .quote {
+    width: 90%;
+    margin: auto;
+  }
+  q {
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+  }
+  #links {
+    width: 100%;
+    margin: auto;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    color: #17a2b8;
+    text-decoration: none;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #17a2b8;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    border-top: 1px solid #17a2b8;
+    transition: 0.1s;
+  }
+  .header h1{
+    font-size: 30px !important;
+  }
+  .header{
+    height: 95px;
+  }
+}
