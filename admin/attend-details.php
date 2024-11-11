@@ -111,19 +111,19 @@ if (isset($_GET['emp-id']) && isset($_GET['month'])) {
                             <tr>
                                 <td>Total days Present:</td>
                                 <td>
-                                    <?php echo $days_present ?>
+                                    <?php echo $days_present ?? 0 ?>
                                 </td>
                                 <td>Today days Absent</td>
                                 <td>
-                                    <?php echo $days_absent ?>
+                                    <?php echo $days_absent ?? 0 ?>
                                 </td>
                                 <td>Total Leaves</td>
                                 <td>
-                                    <?php echo $leave_approved ?>
+                                    <?php echo $leave_approved ?? 0 ?>
                                 </td>
                                 <td>Total Holidays</td>
                                 <td>
-                                    <?php echo $public_holidays ?>
+                                    <?php echo $public_holidays ?? 0 ?>
                                 </td>
                             </tr>
                         </table>
